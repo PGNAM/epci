@@ -47,11 +47,11 @@
             coloredGeoJSONLayer = L.geoJSON(geoJsonData, {
                 style: (feature) => {
                     
-                    const fillColor = feature.properties.AOM === "OUI" ? "#005AA9" : "#FF0000";
+                    const fillColor = feature.properties.AOM === "OUI" ? "#5F02E4" : "#FF0000";
                     return { 
                         fillColor: fillColor,
                         weight: 1,
-                        color : "#1EB4F0",
+                        color : "#6B0589",
                         opacity: 1,
                         fillOpacity: 0.5,
                         };
